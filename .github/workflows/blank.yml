@@ -45,7 +45,7 @@ jobs:
             ls -la  
             echo $WELCOME
           scp: |
-            './mdenia.txt' => /home/totmaquinacendassos/githubactions/web
+            './mdenia.txt' => /home/totmaquinacendassos/githubaction/web
           last_ssh: |
             echo $LASTSSH
             cd /home/totmaquinacendassos/githubactions/web
